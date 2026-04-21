@@ -1,0 +1,222 @@
+[
+  {
+    "customer_id": "1",
+    "first_name": "User1",
+    "last_name": "Test",
+    "email": "user1@gmail.com",
+    "phone": "9999999991",
+    "address": "City",
+    "date_of_birth": "1995-01-01",
+    "account_balance": 1000.50,
+    "created_at": "2026-04-T19:35:00"
+  },
+  {
+    "customer_id": "2",
+    "first_name": "User2",
+    "last_name": "Test",
+    "email": "user2@gmail.com",
+    "phone": "9999999992",
+    "address": "City",
+    "date_of_birth": "1995-02-10",
+    "account_balance": 2000.00,
+    "created_at": "2026-04-T19:35:00"
+  },
+  {
+    "customer_id": "3",
+    "first_name": "User3",
+    "last_name": "Test",
+    "email": "user3@gmail.com",
+    "phone": "9999999993",
+    "address": "City",
+    "date_of_birth": "1997-03-17",
+    "account_balance": 3000.00,
+    "created_at": "2026-04-03T19:35:00"
+  },
+  {
+    "customer_id": "4",
+    "first_name": "User4",
+    "last_name": "Test",
+    "email": "user4@gmail.com",
+    "phone": "9999999994",
+    "address": "City",
+    "date_of_birth": "2000-04-01",
+    "account_balance": 4000.00,
+    "created_at": "2026-04-04T19:35:00"
+  },
+  {
+    "customer_id": "5",
+    "first_name": "User5",
+    "last_name": "Test",
+    "email": "user5@gmail.com",
+    "phone": "9999999995",
+    "address": "City",
+    "date_of_birth": "2009-05-01",
+    "account_balance": 15000.00,
+    "created_at": "2026-04-05T19:35:00"
+  },
+  {
+    "customer_id": "6",
+    "first_name": "User6",
+    "last_name": "Test",
+    "email": "user6@gmail.com",
+    "phone": "9999999996",
+    "address": "City",
+    "date_of_birth": "1995-06-11",
+    "account_balance": 6000.00,
+    "created_at": "2026-04-06T19:35:00"
+  },
+  {
+    "customer_id": "7",
+    "first_name": "User7",
+    "last_name": "Test",
+    "email": "user7@gmail.com",
+    "phone": "9999999997",
+    "address": "City",
+    "date_of_birth": "1995-07-09",
+    "account_balance": 17000.00,
+    "created_at": "2026-04-07T19:35:00"
+  },
+  {
+    "customer_id": "8",
+    "first_name": "User8",
+    "last_name": "Test",
+    "email": "user8@gmail.com",
+    "phone": "9999999998",
+    "address": "City",
+    "date_of_birth": "1995-08-01",
+    "account_balance": 89000.00,
+    "created_at": "2026-04-08T19:35:00"
+  },
+  {
+    "customer_id": "9",
+    "first_name": "User9",
+    "last_name": "Test",
+    "email": "user9@gmail.com",
+    "phone": "9999999999",
+    "address": "City",
+    "date_of_birth": "1995-09-01",
+    "account_balance": 9100.00,
+    "created_at": "2026-04-09T19:35:00"
+  },
+  {
+    "customer_id": "10",
+    "first_name": "User10",
+    "last_name": "Test",
+    "email": "user10@gmail.com",
+    "phone": "9999999910",
+    "address": "City",
+    "date_of_birth": "1995-10-01",
+    "account_balance": 10000.00,
+    "created_at": "2026-04-10T19:35:00"
+  },
+  {
+    "customer_id": "11",
+    "first_name": "User11",
+    "last_name": "Test",
+    "email": "user11@gmail.com",
+    "phone": "9999999911",
+    "address": "City",
+    "date_of_birth": "1995-11-01",
+    "account_balance": 11000.00,
+    "created_at": "2026-04-11T19:35:00"
+  },
+  {
+    "customer_id": "12",
+    "first_name": "User12",
+    "last_name": "Test",
+    "email": "user12@gmail.com",
+    "phone": "9999999912",
+    "address": "City",
+    "date_of_birth": "1995-12-01",
+    "account_balance": 12000.00,
+    "created_at": "2026-04-12T19:35:00"
+  },
+  {
+    "customer_id": "13",
+    "first_name": "User13",
+    "last_name": "Test",
+    "email": "user13@gmail.com",
+    "phone": "9999999913",
+    "address": "City",
+    "date_of_birth": "1995-01-13",
+    "account_balance": 13000.00,
+    "created_at": "2026-04-13T19:35:00"
+  },
+  {
+    "customer_id": "14",
+    "first_name": "User14",
+    "last_name": "Test",
+    "email": "user14@gmail.com",
+    "phone": "9999999914",
+    "address": "City",
+    "date_of_birth": "1995-02-14",
+    "account_balance": 14000.00,
+    "created_at": "2026-04-14T19:35:00"
+  },
+  {
+    "customer_id": "15",
+    "first_name": "User15",
+    "last_name": "Test",
+    "email": "user15@gmail.com",
+    "phone": "9999999915",
+    "address": "City",
+    "date_of_birth": "1995-03-15",
+    "account_balance": 15000.00,
+    "created_at": "2026-04-15T19:35:00"
+  },
+  {
+    "customer_id": "16",
+    "first_name": "User16",
+    "last_name": "Test",
+    "email": "user16@gmail.com",
+    "phone": "9999999916",
+    "address": "City",
+    "date_of_birth": "1995-04-16",
+    "account_balance": 16000.00,
+    "created_at": "2026-04-16T19:35:00"
+  },
+  {
+    "customer_id": "17",
+    "first_name": "User17",
+    "last_name": "Test",
+    "email": "user17@gmail.com",
+    "phone": "9999999917",
+    "address": "City",
+    "date_of_birth": "1999-05-17",
+    "account_balance": 17000.00,
+    "created_at": "2026-04-17T19:35:00"
+  },
+  {
+    "customer_id": "18",
+    "first_name": "User18",
+    "last_name": "Test",
+    "email": "user18@gmail.com",
+    "phone": "9999999918",
+    "address": "City",
+    "date_of_birth": "1986-06-18",
+    "account_balance": 18000.00,
+    "created_at": "2026-04-18T19:35:00"
+  },
+  {
+    "customer_id": "19",
+    "first_name": "User19",
+    "last_name": "Test",
+    "email": "user19@gmail.com",
+    "phone": "9999999919",
+    "address": "City",
+    "date_of_birth": "2004-07-19",
+    "account_balance": 19000.00,
+    "created_at": "2026-04-19T19:35:00"
+  },
+  {
+    "customer_id": "20",
+    "first_name": "User20",
+    "last_name": "Test",
+    "email": "user20@gmail.com",
+    "phone": "9999999920",
+    "address": "City",
+    "date_of_birth": "1995-08-20",
+    "account_balance": 20000.00,
+    "created_at": "2026-04-20T19:35:00"
+  }
+]
