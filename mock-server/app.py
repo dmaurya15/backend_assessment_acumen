@@ -1,14 +1,11 @@
 from flask import Flask, jsonify, request
-from services.customer_service import CustomerService
+import json
 
 app = Flask(__name__)
 
-customer_service = CustomerService("data/customers.json")
-
-
-@app.route("/", methods=["GET"])
-def home():
-    return jsonify({"message": "Flask Mock Server Running"}), 200
+# Load JSON once
+with open("data/customers.json") as f:
+    customers = json.load(f)
 
 
 @app.route("/api/health", methods=["GET"])
@@ -21,25 +18,28 @@ def get_customers():
     try:
         page = int(request.args.get("page", 1))
         limit = int(request.args.get("limit", 10))
-
-        if page < 1 or limit < 1:
-            raise ValueError
-
     except ValueError:
-        return jsonify({"error": "Invalid pagination parameters"}), 400
+        return jsonify({"error": "Invalid pagination"}), 400
 
-    result = customer_service.get_customers(page, limit)
-    return jsonify(result), 200
+    start = (page - 1) * limit
+    end = start + limit
+
+    return jsonify({
+        "data": customers[start:end],
+        "total": len(customers),
+        "page": page,
+        "limit": limit
+    })
 
 
 @app.route("/api/customers/<customer_id>", methods=["GET"])
 def get_customer(customer_id):
-    customer = customer_service.get_customer_by_id(customer_id)
+    customer = next((c for c in customers if c["customer_id"] == customer_id), None)
 
     if not customer:
         return jsonify({"error": "Customer not found"}), 404
 
-    return jsonify(customer), 200
+    return jsonify(customer)
 
 
 if __name__ == "__main__":
