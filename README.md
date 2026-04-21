@@ -10,13 +10,13 @@ PostgreSQL → Persistent storage layer
 
 The system demonstrates data ingestion, pagination handling, upsert logic, and RESTful API design using a microservices architecture.
 
--> Architecture
+-> Architecture |
 customers.json
-     ↓
+     |
 Flask Service (Mock Data API - :5000)
-     ↓
+     |
 FastAPI Service (Ingestion + API Layer - :8000)
-     ↓
+     |
 PostgreSQL Database (Persistent Storage - :5432)
 
 -> Tech Stack
